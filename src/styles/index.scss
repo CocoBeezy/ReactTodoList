@@ -1,0 +1,14 @@
+body {
+	background-color: #f0f0f0;
+	.app-container {
+		width: 100%;
+		height: 100vh;
+
+		.todo-comp {
+			width: 760px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 40px;
+		}
+	}
+}

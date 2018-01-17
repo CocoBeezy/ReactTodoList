@@ -1,0 +1,19 @@
+.todo-item {
+  &.level {
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      .delete-item {
+        display: flex;
+      }
+    }
+
+    .delete-item {
+      display: none;
+    }
+  }
+}
